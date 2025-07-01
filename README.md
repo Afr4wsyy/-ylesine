@@ -1,2 +1,2 @@
 # -ylesine
-Yok.
+İndex
