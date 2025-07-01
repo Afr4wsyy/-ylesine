@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Afra'nın Hakkında Sayfası</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 20px;
+      border: 2px solid #8ac6d1;
+      border-radius: 10px;
+    }
+    h1 {
+      color: #0275d8;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    nav {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0275d8;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    img {
+      max-width: 150px;
+      border-radius: 50%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 3px solid #0275d8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Merhaba, ben Afra!</h1>
+  <img src="https://i.pravatar.cc/150?img=47" alt="Afra'nın Fotoğrafı" />
+
+  <nav>
+    <a href="#hakkimda">Hakkımda</a>
+    <a href="#hobiler">Hobilerim</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <section id="hakkimda">
+    <h2>Hakkımda</h2>
+    <p>Bilgisayar ve web tasarımına yeni başladım. Kod yazmayı ve öğrenmeyi çok seviyorum. Bu sayfayı da kendimi tanıtmak için yaptım.</p>
+  </section>
+
+  <section id="hobiler">
+    <h2>Hobilerim</h2>
+    <p>Kitap okumak, film izlemek, ve doğada yürüyüş yapmak en sevdiğim aktiviteler.</p>
+  </section>
+
+  <section id="iletisim">
+    <h2>İletişim</h2>
+    <p>Bana <a href="mailto:afra@example.com">afra@example.com</a> adresinden ulaşabilirsiniz.</p>
+  </section>
+
+</body>
+</html>
